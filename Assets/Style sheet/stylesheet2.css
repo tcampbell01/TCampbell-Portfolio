@@ -1,0 +1,61 @@
+html, body {
+    background-color:orangered;
+    background-image:linear-gradient(orangered, yellow);
+    height:120%;
+    margin:0;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    
+
+}
+
+#img1 {
+    border-style:dotted;
+    border-color:black;
+    border-radius:10px;
+}
+
+#headshot-section {
+    margin-top: 40px;
+    
+}
+
+#bio-section {
+    margin-top:40px;
+    background-color:white;
+    border-style:dotted;
+    border-color:black;
+    border-radius:10px;
+}
+#row2 {
+    margin-top:40px;
+    margin-left:70px;
+}
+#repo-btn {
+    margin-top: 15px;
+}
+#Proficiencies {
+    margin-top:40px;
+    background-color:white;
+    border-style:dotted;
+    border-color:black;
+    border-radius:10px;
+    margin-bottom: 40px;
+}
+#HPL-btn {
+    margin-top:15px;
+}
+
+#footer {
+    color:White;
+    text-align:center;
+    font-weight:bold;
+    font-size:24px;
+
+}
+#nav-link {
+color:white;
+margin-top:40px;
+}

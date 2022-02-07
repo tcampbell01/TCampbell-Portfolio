@@ -1,0 +1,68 @@
+
+
+
+header {
+    background-color:rgb(255, 115, 0);
+    
+}
+#header {
+    color:white;
+}
+#row1 {
+    margin-left:10px;
+    margin-top:20px;
+    
+}
+img {
+    border: 5px solid rgb(255, 115, 0);
+  }
+  #bio-section {
+      border-bottom:5px solid rgb(255, 115, 0);
+      
+  }
+
+  #row2 {
+      margin-left:20px;
+      margin-top:20px;
+  }
+  #courses {
+      flex-wrap: wrap;
+      justify-content:space-evenly;
+      align-items:center;
+  }
+
+  #courses1 {
+      flex-direction:column;
+      justify-content:space-around;
+  }
+#courses1,
+#courses2,
+#courses3 {
+    border-bottom:5px solid rgb(255, 115, 0);
+   
+}
+
+#row3 {
+    margin-left: 12px;
+    margin-top:42px;
+}
+
+#coding1,
+#coding2,
+#coding3 {
+   
+    border-bottom:5px solid rgb(225, 115, 0);
+  
+}
+
+#explanation1 {
+    margin-top:20px;
+}
+
+#courses-section {
+    border-bottom: 5px solid rgb(225,115,0);
+}
+
+#coding-discussion{
+    margin-top:20px;
+}
