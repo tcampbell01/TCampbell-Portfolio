@@ -1,7 +1,7 @@
 # TCPortfolio
 
 
-Deployed application: https://tcampbell01.github.io/TCampbell-Portfolio/
+Portfolio: https://tcampbell01.github.io/TCampbell-Portfolio/
 
  ## Table of Contents
 
