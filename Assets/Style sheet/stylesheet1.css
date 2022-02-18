@@ -63,3 +63,18 @@ h4 {
     margin-top:70px;
     text-align:center;
 }
+
+#Proficiencies {
+    margin-top:40px;
+
+    
+    border-style:solid;
+    border-color:black;
+    border-radius:10px;
+    margin-bottom: 40px;
+    align-items:center;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
