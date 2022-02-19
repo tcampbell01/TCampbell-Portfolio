@@ -1,7 +1,7 @@
 html, body {
     background-color:lightblue;
     background-image:linear-gradient(aqua, green);
-    height:100%;
+    height:120%;
     margin:0;
     text-align:center;
     
@@ -67,8 +67,6 @@ h4 {
 #Proficiencies {
 
     margin-top:40px;
-
-    
     border-style:solid;
     border-color:black;
     border-radius:10px;
