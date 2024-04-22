@@ -65,16 +65,44 @@ h4 {
     line-height: 2;
 }
 
-#Proficiencies {
+/* Center the rows */
+#row5 {
+    display: flex;
+    justify-content: center;
+}
 
-    margin-top:40px;
-    border-style:solid;
-    border-color:black;
-    border-radius:10px;
+/* Adjust margins for each Proficiencies */
+#Proficiencies,
+#Proficiencies2,
+#Proficiencies3,
+#Proficiencies4 {
+    margin-top: 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
     margin-bottom: 40px;
-    align-items:center;
+}
 
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+.blue-dot {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1; /* Ensure the dot is above the proficiency blocks */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Position the blue dots vertically between proficiency blocks */
+#Proficiencies2 .blue-dot {
+    top: calc(100% + 20px); /* Distance below Proficiencies2 */
+}
+
+#Proficiencies3 .blue-dot {
+    top: calc(100% + 20px); /* Distance below Proficiencies3 */
+}
+
+#Proficiencies4 .blue-dot {
+    top: calc(100% + 20px); /* Distance below Proficiencies4 */
 }
